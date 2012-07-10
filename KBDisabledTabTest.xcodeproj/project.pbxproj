@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B081E89015AC6E990036E014 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B081E88F15AC6E990036E014 /* UIKit.framework */; };
+		B081E89215AC6E990036E014 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B081E89115AC6E990036E014 /* Foundation.framework */; };
+		B081E89415AC6E990036E014 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B081E89315AC6E990036E014 /* CoreGraphics.framework */; };
+		B081E89A15AC6E990036E014 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B081E89815AC6E990036E014 /* InfoPlist.strings */; };
+		B081E89C15AC6E990036E014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B081E89B15AC6E990036E014 /* main.m */; };
+		B081E8A015AC6E990036E014 /* KBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B081E89F15AC6E990036E014 /* KBAppDelegate.m */; };
+		B081E8A315AC6E990036E014 /* KBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B081E8A215AC6E990036E014 /* KBFirstViewController.m */; };
+		B081E8A515AC6E990036E014 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B081E8A415AC6E990036E014 /* first.png */; };
+		B081E8A715AC6E990036E014 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B081E8A615AC6E990036E014 /* first@2x.png */; };
+		B081E8AA15AC6E990036E014 /* KBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B081E8A915AC6E990036E014 /* KBSecondViewController.m */; };
+		B081E8AC15AC6E990036E014 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B081E8AB15AC6E990036E014 /* second.png */; };
+		B081E8AE15AC6E990036E014 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B081E8AD15AC6E990036E014 /* second@2x.png */; };
+		B081E8B115AC6E990036E014 /* KBFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081E8AF15AC6E990036E014 /* KBFirstViewController.xib */; };
+		B081E8B415AC6E990036E014 /* KBSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B081E8B215AC6E990036E014 /* KBSecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B081E88B15AC6E990036E014 /* KBDisabledTabTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBDisabledTabTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B081E88F15AC6E990036E014 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B081E89115AC6E990036E014 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B081E89315AC6E990036E014 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B081E89715AC6E990036E014 /* KBDisabledTabTest-Info.plist */ = {isa = PBXFileReference; path = "KBDisabledTabTest-Info.plist"; sourceTree = "<group>"; };
+		B081E89915AC6E990036E014 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B081E89B15AC6E990036E014 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B081E89D15AC6E990036E014 /* KBDisabledTabTest-Prefix.pch */ = {isa = PBXFileReference; path = "KBDisabledTabTest-Prefix.pch"; sourceTree = "<group>"; };
+		B081E89E15AC6E990036E014 /* KBAppDelegate.h */ = {isa = PBXFileReference; path = KBAppDelegate.h; sourceTree = "<group>"; };
+		B081E89F15AC6E990036E014 /* KBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBAppDelegate.m; sourceTree = "<group>"; };
+		B081E8A115AC6E990036E014 /* KBFirstViewController.h */ = {isa = PBXFileReference; path = KBFirstViewController.h; sourceTree = "<group>"; };
+		B081E8A215AC6E990036E014 /* KBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBFirstViewController.m; sourceTree = "<group>"; };
+		B081E8A415AC6E990036E014 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B081E8A615AC6E990036E014 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B081E8A815AC6E990036E014 /* KBSecondViewController.h */ = {isa = PBXFileReference; path = KBSecondViewController.h; sourceTree = "<group>"; };
+		B081E8A915AC6E990036E014 /* KBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBSecondViewController.m; sourceTree = "<group>"; };
+		B081E8AB15AC6E990036E014 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B081E8AD15AC6E990036E014 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B081E8B015AC6E990036E014 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KBFirstViewController.xib; sourceTree = "<group>"; };
+		B081E8B315AC6E990036E014 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KBSecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B081E88815AC6E990036E014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B081E89015AC6E990036E014 /* UIKit.framework in Frameworks */,
+				B081E89215AC6E990036E014 /* Foundation.framework in Frameworks */,
+				B081E89415AC6E990036E014 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B081E88015AC6E990036E014 = {
+			isa = PBXGroup;
+			children = (
+				B081E89515AC6E990036E014 /* KBDisabledTabTest */,
+				B081E88E15AC6E990036E014 /* Frameworks */,
+				B081E88C15AC6E990036E014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B081E88C15AC6E990036E014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B081E88B15AC6E990036E014 /* KBDisabledTabTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B081E88E15AC6E990036E014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B081E88F15AC6E990036E014 /* UIKit.framework */,
+				B081E89115AC6E990036E014 /* Foundation.framework */,
+				B081E89315AC6E990036E014 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B081E89515AC6E990036E014 /* KBDisabledTabTest */ = {
+			isa = PBXGroup;
+			children = (
+				B081E89E15AC6E990036E014 /* KBAppDelegate.h */,
+				B081E89F15AC6E990036E014 /* KBAppDelegate.m */,
+				B081E8A115AC6E990036E014 /* KBFirstViewController.h */,
+				B081E8A215AC6E990036E014 /* KBFirstViewController.m */,
+				B081E8A415AC6E990036E014 /* first.png */,
+				B081E8A615AC6E990036E014 /* first@2x.png */,
+				B081E8A815AC6E990036E014 /* KBSecondViewController.h */,
+				B081E8A915AC6E990036E014 /* KBSecondViewController.m */,
+				B081E8AB15AC6E990036E014 /* second.png */,
+				B081E8AD15AC6E990036E014 /* second@2x.png */,
+				B081E8AF15AC6E990036E014 /* KBFirstViewController.xib */,
+				B081E8B215AC6E990036E014 /* KBSecondViewController.xib */,
+				B081E89615AC6E990036E014 /* Supporting Files */,
+			);
+			path = KBDisabledTabTest;
+			sourceTree = "<group>";
+		};
+		B081E89615AC6E990036E014 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B081E89715AC6E990036E014 /* KBDisabledTabTest-Info.plist */,
+				B081E89815AC6E990036E014 /* InfoPlist.strings */,
+				B081E89B15AC6E990036E014 /* main.m */,
+				B081E89D15AC6E990036E014 /* KBDisabledTabTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B081E88A15AC6E990036E014 /* KBDisabledTabTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B081E8B715AC6E990036E014 /* Build configuration list for PBXNativeTarget "KBDisabledTabTest" */;
+			buildPhases = (
+				B081E88715AC6E990036E014 /* Sources */,
+				B081E88815AC6E990036E014 /* Frameworks */,
+				B081E88915AC6E990036E014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBDisabledTabTest;
+			productName = KBDisabledTabTest;
+			productReference = B081E88B15AC6E990036E014 /* KBDisabledTabTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B081E88215AC6E990036E014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KB;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Little Spindle, LLC";
+			};
+			buildConfigurationList = B081E88515AC6E990036E014 /* Build configuration list for PBXProject "KBDisabledTabTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B081E88015AC6E990036E014;
+			productRefGroup = B081E88C15AC6E990036E014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B081E88A15AC6E990036E014 /* KBDisabledTabTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B081E88915AC6E990036E014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B081E89A15AC6E990036E014 /* InfoPlist.strings in Resources */,
+				B081E8A515AC6E990036E014 /* first.png in Resources */,
+				B081E8A715AC6E990036E014 /* first@2x.png in Resources */,
+				B081E8AC15AC6E990036E014 /* second.png in Resources */,
+				B081E8AE15AC6E990036E014 /* second@2x.png in Resources */,
+				B081E8B115AC6E990036E014 /* KBFirstViewController.xib in Resources */,
+				B081E8B415AC6E990036E014 /* KBSecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B081E88715AC6E990036E014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B081E89C15AC6E990036E014 /* main.m in Sources */,
+				B081E8A015AC6E990036E014 /* KBAppDelegate.m in Sources */,
+				B081E8A315AC6E990036E014 /* KBFirstViewController.m in Sources */,
+				B081E8AA15AC6E990036E014 /* KBSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B081E89815AC6E990036E014 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B081E89915AC6E990036E014 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B081E8AF15AC6E990036E014 /* KBFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B081E8B015AC6E990036E014 /* en */,
+			);
+			name = KBFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		B081E8B215AC6E990036E014 /* KBSecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B081E8B315AC6E990036E014 /* en */,
+			);
+			name = KBSecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B081E8B515AC6E990036E014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B081E8B615AC6E990036E014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B081E8B815AC6E990036E014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KBDisabledTabTest/KBDisabledTabTest-Prefix.pch";
+				INFOPLIST_FILE = "KBDisabledTabTest/KBDisabledTabTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B081E8B915AC6E990036E014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KBDisabledTabTest/KBDisabledTabTest-Prefix.pch";
+				INFOPLIST_FILE = "KBDisabledTabTest/KBDisabledTabTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B081E88515AC6E990036E014 /* Build configuration list for PBXProject "KBDisabledTabTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B081E8B515AC6E990036E014 /* Debug */,
+				B081E8B615AC6E990036E014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B081E8B715AC6E990036E014 /* Build configuration list for PBXNativeTarget "KBDisabledTabTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B081E8B815AC6E990036E014 /* Debug */,
+				B081E8B915AC6E990036E014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B081E88215AC6E990036E014 /* Project object */;
+}
