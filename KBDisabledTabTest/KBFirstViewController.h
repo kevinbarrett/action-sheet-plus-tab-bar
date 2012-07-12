@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface KBFirstViewController : UIViewController
+- (IBAction)actionSheetButtonPressed:(id)sender;
 
 @end

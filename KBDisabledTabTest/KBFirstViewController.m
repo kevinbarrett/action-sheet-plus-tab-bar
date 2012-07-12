@@ -41,4 +41,12 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)actionSheetButtonPressed:(id)sender {
+    UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:@"My Action Sheet"
+                                                       delegate:nil
+                                              cancelButtonTitle:@"Cancel"
+                                         destructiveButtonTitle:@"Destructive"
+                                              otherButtonTitles:@"Other", nil];
+    [sheet showFromTabBar:self.tabBarController.tabBar];
+}
 @end
